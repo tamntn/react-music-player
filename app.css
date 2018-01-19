@@ -2,6 +2,10 @@ body {
   background: #f9f9f9;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  /* background-size: 100%;
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 20%, #000000 95%);
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 20%, #000000 95%);
+  background-image: radial-gradient(ellipse cover at center, rgba(0, 0, 0, 0) 20%, #000000 95%); */
 }
 
 #container {
