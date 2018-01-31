@@ -7,4 +7,4 @@ import musicAnimation from './musicAnimation';
 
 ReactDOM.render(<App />, document.getElementById('hook'));
 registerServiceWorker();
-// musicAnimation();
+musicAnimation();

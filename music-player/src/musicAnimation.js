@@ -61,7 +61,7 @@ COLORS = [
   '#0CCABA',
   '#FF006F'
 ];
-function getAnimation(file) {
+export default function getAnimation(file) {
   AudioAnalyser = (function () {
     AudioAnalyser.AudioContext = window.self.AudioContext || window.self.webkitAudioContext;
 
@@ -255,7 +255,7 @@ function getAnimation(file) {
   });
 }
 
-function handleFileSelect(evt) {
+export function handleFileSelect(evt) {
   var files = evt.target.files;
   getAnimation(files[0]);
 }
